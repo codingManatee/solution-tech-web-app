@@ -1,6 +1,5 @@
 import type React from "react"
 import "@/app/globals.css"
-import { ThemeProvider } from "next-themes"
 
 export const metadata = {
   title: "Green Hydrogen - The Future of Clean Energy",
@@ -14,11 +13,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <body className="">
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
-          {children}
-        </ThemeProvider>
+        {/* <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange> */}
+        {children}
+        {/* </ThemeProvider> */}
       </body>
     </html>
   )

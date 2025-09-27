@@ -7,10 +7,10 @@
   --color-main-indigo: var(--main-indigo);
   --color-main-turquoise: var(--main-turquoise);
   --color-main-white: var(--main-white);
-    --color-secondary-indigo: var(--secondary-indigo);
-    --color-secondary-turquoise: var(--secondary-turquoise);
-    --color-secondary-white: var(--secondary-white);
-    --color-main-green: var(--main-green);
+  --color-secondary-indigo: var(--secondary-indigo);
+  --color-secondary-turquoise: var(--secondary-turquoise);
+  --color-secondary-white: var(--secondary-white);
+  --color-main-green: var(--main-green);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -83,13 +83,13 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
-    --main-green: rgb(143 188 143);
-    --main-turquoise: rgb(0, 208, 197);
-    --main-indigo: rgb(0, 61, 79);
-    --main-white: rgb(255, 255, 255);
-    --secondary-turquoise: rgb(37 79 121);
-    --secondary-indigo: rgb(54 69 79);
-    --secondary-white: rgb(215 206 199);
+  --main-green: rgb(143 188 143);
+  --main-turquoise: rgb(0, 208, 197);
+  --main-indigo: rgb(0, 61, 79);
+  --main-white: rgb(255, 255, 255);
+  --secondary-turquoise: rgb(37 79 121);
+  --secondary-indigo: rgb(54 69 79);
+  --secondary-white: rgb(215 206 199);
 }
 
 .dark {

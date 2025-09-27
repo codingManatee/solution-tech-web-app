@@ -15,7 +15,7 @@ const CtaText = () => {
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                     <Button className="bg-white text-main-green hover:bg-gray-100">Request a Consultation</Button>
-                    <Button variant="outline" className="border-white text-white hover:bg-green-700">
+                    <Button variant="outline" className="border-white text-black">
                         Download Whitepaper
                     </Button>
                 </div>
