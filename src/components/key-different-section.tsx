@@ -1,10 +1,17 @@
+import BlurText from "./BlurText";
 import CountUp from "./ui/count-up";
 
 const KeyDifferentSection = () => {
     return (
         <div className=" px-4 md:px-6 space-y-12">
             <div className="flex flex-col items-center justify-center text-center">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-main-indigo">Key different</h2>
+                <BlurText
+                    text="Key Differences"
+                    delay={150}
+                    animateBy="words"
+                    direction="top"
+                    className="text-5xl font-bold tracking-tight sm:text-7xl text-main-indigo"
+                />
             </div>
             <div className="items-center gap-6 py-12lg:gap-12">
                 <div className="space-y-12 flex flex-col justify-center items-center">

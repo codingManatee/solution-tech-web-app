@@ -1,6 +1,7 @@
 import { Mail } from "lucide-react"
 import { BsInstagram } from "react-icons/bs"
 import { TbBrandTiktok } from "react-icons/tb"
+import BlurText from "./BlurText"
 
 const ContactSection = () => {
     return (
@@ -8,7 +9,13 @@ const ContactSection = () => {
             <div className="grid gap-6">
                 <div className="flex flex-col items-center space-y-4">
                     <div className="space-y-2 flex flex-col items-center text-center">
-                        <h2 className="text-3xl font-bold text-main-turquoise tracking-tighter sm:text-4xl md:text-5xl">Get in Touch</h2>
+                        <BlurText
+                            text="Get in Touch"
+                            delay={150}
+                            animateBy="words"
+                            direction="top"
+                            className="text-5xl font-bold tracking-tight sm:text-7xl text-main-turquoise"
+                        />
                         <p className="text-main-indigo md:text-xl">
                             Interested in our hydrogen energy solutions? Reach out to our team for more information.
                         </p>

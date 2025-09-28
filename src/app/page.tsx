@@ -1,13 +1,13 @@
 import Header from "@/components/header"
 import HeroSection from "@/components/hero-section"
 import StatSection from "@/components/stat-section"
-import ProcessSection from "@/components/process-section"
 import ContactSection from "@/components/contact-section"
 import AboutUs from "@/components/about-us"
 import HowItWorkSection from "@/components/how-it-work-section"
 import KeyBenefitsSection from "@/components/key-benefits-section"
 import KeyDifferentSection from "@/components/key-different-section"
 import CtaText from "@/components/cta-text"
+import Footer from "@/components/footer"
 
 export default function Home() {
   return (
@@ -34,29 +34,22 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Process Section */}
-        <section id="process" className="w-full py-12 md:py-24 lg:py-32 bg-white">
-          <div className="container mx-auto px-4">
-            <ProcessSection />
-          </div>
-        </section>
-
-        {/* Membraneless */}
-        <section id="membraneless" className="w-full py-12 md:py-24 lg:py-32 bg-white">
+        {/* How it works */}
+        <section id="insight" className="w-full py-12 md:py-24 lg:py-32 bg-white">
           <div className="container mx-auto px-4">
             <HowItWorkSection />
           </div>
         </section>
 
         {/* Key Benefits */}
-        <section id="key-benefits" className="w-full py-12 md:py-24 lg:py-32 bg-white">
+        <section id="benefits" className="w-full py-12 md:py-24 lg:py-32 bg-white">
           <div className="container mx-auto px-4">
             <KeyBenefitsSection />
           </div>
         </section>
 
         {/* Key Differences */}
-        <section id="key-different" className="w-full py-12 md:py-24 lg:py-32 bg-white">
+        <section id="different" className="w-full py-12 md:py-24 lg:py-32 bg-white">
           <div className="container mx-auto px-4">
             <KeyDifferentSection />
           </div>
@@ -75,11 +68,6 @@ export default function Home() {
             <CtaText />
           </div>
         </section>
-
-        {/* Impact Section (optional) */}
-        {/* <section id="impact" className="w-full py-12 md:py-24 lg:py-32 bg-green-50">
-          <ImpactSection />
-        </section> */}
 
         {/* Contact Section */}
         <section id="contact" className="w-full py-12 md:py-24 lg:py-32 bg-white">

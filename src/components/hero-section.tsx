@@ -2,6 +2,7 @@ import { ArrowRight } from "lucide-react"
 import { Button } from "./ui/button"
 import TextType from "./ui/text-type"
 import Image from "next/image"
+import Link from "next/link"
 
 const HeroSection = () => {
     return (
@@ -18,22 +19,24 @@ const HeroSection = () => {
                             className="text-3xl"
                             pauseDuration={1500}
                             showCursor={true}
-                            textColors={['black']}
+                            textColors={['#003D4F']}
                             cursorCharacter="|"
                         />
                     </div>
                     <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                        <Button variant="outline" className="text-main-white bg-main-turquoise hover:bg-main-indigo hover:text-main-white">
-                            Contact Us <ArrowRight className="ml-2 h-4 w-4" />
-                        </Button>
+                        <Link href={"#contact"}>
+                            <Button variant="outline" className="text-main-white bg-main-turquoise hover:bg-main-indigo hover:text-main-white">
+                                Contact Us <ArrowRight className="ml-2 h-4 w-4" />
+                            </Button>
+                        </Link>
                     </div>
                 </div>
-                <div className="">
+                <div className="justify-center flex">
                     <Image
-                        src="/1.jpg"
+                        src="/7.png"
                         alt="Green hydrogen electrolyzer"
                         width={500}
-                        height={500}
+                        height={400}
                         className="rounded-xl shadow-md object-cover"
                     />
                 </div>
