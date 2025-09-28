@@ -1,4 +1,3 @@
-import FeatureSection from "@/components/feature-section"
 import Header from "@/components/header"
 import HeroSection from "@/components/hero-section"
 import StatSection from "@/components/stat-section"
@@ -9,6 +8,7 @@ import HowItWorkSection from "@/components/how-it-work-section"
 import KeyBenefitsSection from "@/components/key-benefits-section"
 import KeyDifferentSection from "@/components/key-different-section"
 import CtaText from "@/components/cta-text"
+import Footer from "@/components/footer"
 
 export default function Home() {
   return (
@@ -23,17 +23,19 @@ export default function Home() {
         {/* Hero Section */}
         <section
           id="hero"
-          className="w-full min-h-[700px] py-12 md:py-24 lg:py-32 xl:py-48 bg-gradient-to-b from-white to-green-50"
+          className="w-full min-h-[700px] py-12 md:py-24 lg:py-32 xl:py-48 bg-gradient-to-b from-cyan-50 to-white"
         >
           <HeroSection />
         </section>
 
         {/* Why Hydrogen */}
-        <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-green-50">
+        {/* <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-green-50">
           <div className="container mx-auto px-4">
             <FeatureSection />
           </div>
-        </section>
+        </section> */}
+
+
 
         {/* About us */}
         <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-white">
@@ -78,7 +80,7 @@ export default function Home() {
         </section>
 
         {/* CTA Section */}
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-green-600 text-white">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-main-indigo text-white">
           <div className="container mx-auto px-4">
             <CtaText />
           </div>
@@ -98,7 +100,7 @@ export default function Home() {
       </main>
 
       {/* Footer (optional) */}
-      {/* <footer className="w-full border-t bg-green-50 py-6">
+      {/* <footer className="w-full border-t bg-cyan-50 py-6">
         <Footer />
       </footer> */}
     </div>

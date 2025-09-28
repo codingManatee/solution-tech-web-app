@@ -2,9 +2,7 @@ import type React from "react"
 import "@/app/globals.css"
 
 export const metadata = {
-  title: "Green Hydrogen - The Future of Clean Energy",
-  description:
-    "Discover the power of green hydrogen - sustainable, zero-emission fuel that powers our world without harming the planet.",
+  title: "The Solution Tech Company",
 }
 
 export default function RootLayout({

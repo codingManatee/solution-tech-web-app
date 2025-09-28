@@ -1,36 +1,48 @@
-import { Leaf } from "lucide-react";
-import FeatureBox from "./ui/feature-box";
-import { AiFillDollarCircle } from "react-icons/ai";
+import CountUp from "./ui/count-up";
 
 const KeyDifferentSection = () => {
     return (
-        <div className=" px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                <div className="space-y-2">
-                    {/* <div className="inline-block rounded-lg bg-green-100 px-3 py-1 text-sm text-green-700">
-                        Innovative Technology
-                    </div> */}
-                    <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Key Different</h2>
-                    {/* <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                        Green hydrogen offers a sustainable solution to our energy needs, providing clean power without
-                        harmful emissions.
-                    </p> */}
-                </div>
+        <div className=" px-4 md:px-6 space-y-12">
+            <div className="flex flex-col items-center justify-center text-center">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-main-indigo">Key different</h2>
             </div>
-            <div className="grid items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
-                <FeatureBox
-                    title="Material"
-                    description="5x cheaper with only 5-10% less efficiency"
-                    icon={<AiFillDollarCircle className="h-12 w-12" />}
-                />
-                <FeatureBox
-                    title="Design"
-                    description="Reduce costly component via new design"
-                    icon={<AiFillDollarCircle className="h-12 w-12" />}
-                />
+            <div className="items-center gap-6 py-12lg:gap-12">
+                <div className="space-y-12 flex flex-col justify-center items-center">
+                    {/* Material Row */}
+                    <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+                        <span className="text-5xl font-semibold text-main-turquoise">Material</span>
+                        <span className="text-5xl">→</span>
+                        <span className="flex items-end gap-2">
+                            <span className="text-3xl font-bold text-main-turquoise flex">
+                                <CountUp
+                                    from={0}
+                                    to={5}
+                                    separator=","
+                                    direction="up"
+                                    duration={1}
+                                    className="count-up-text"
+                                />
+                                <div className="">X</div>
+                            </span>
+                            <span className="text-lg md:text-xl text-main-indigo">
+                                cheaper with only 5–10% less efficiency
+                            </span>
+                        </span>
+                    </div>
+
+                    {/* Design Row */}
+                    <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+                        <span className="text-5xl font-semibold text-main-turquoise">Design</span>
+                        <span className="text-5xl">→</span>
+                        <span className="text-lg md:text-xl text-main-indigo">
+                            reduce costly components via new design
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     )
 }
 
 export default KeyDifferentSection;
+

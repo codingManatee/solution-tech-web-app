@@ -9,7 +9,7 @@ const Header = () => {
             <div className="flex gap-2 items-center text-xl font-bold">
                 <Image src={"/main_logo_indigo.png"} alt="main-logo" width={100} height={100} />
             </div>
-            <div className="flex flex-1 items-center justify-end space-x-4">
+            <div className="flex-1 items-center justify-end space-x-4 hidden sm:flex">
                 <nav className="flex items-center space-x-1 gap-5">
                     <Link href="#features" className="text-sm font-medium transition-colors hover:text-primary">
                         Features

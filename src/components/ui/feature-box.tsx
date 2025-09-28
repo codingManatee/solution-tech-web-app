@@ -9,13 +9,13 @@ interface FeatureBoxProps {
 
 const FeatureBox = ({ title, description, icon }: FeatureBoxProps) => {
     return (
-        <Card className="border-green-100 h-full">
+        <Card className="border-cyan-100 h-full">
             <CardContent className="flex flex-col items-center space-y-4 p-6">
-                <div className="h-12 w-12 text-main-green">
+                <div className="h-12 w-12 text-main-turquoise">
                     {icon}
                 </div>
-                <h3 className="text-xl font-bold">{title}</h3>
-                <p className="text-center text-gray-500">
+                <h3 className="text-xl font-bold text-main-indigo">{title}</h3>
+                <p className="text-center text-main-indigo">
                     {description}
                 </p>
             </CardContent>
