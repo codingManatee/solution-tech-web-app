@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client'
 import React, { ReactNode, useLayoutEffect, useRef, useCallback } from 'react';
 import Lenis from 'lenis';

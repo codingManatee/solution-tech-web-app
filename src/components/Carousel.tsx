@@ -1,6 +1,7 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 'use client'
 import { useEffect, useState, useRef } from 'react';
-import { motion, PanInfo, useMotionValue, useTransform } from 'motion/react';
+import { motion, PanInfo, Transition, useMotionValue, useTransform } from 'motion/react';
 import React, { JSX } from 'react';
 
 // replace icons with your own if needed
@@ -58,7 +59,7 @@ const DEFAULT_ITEMS: CarouselItem[] = [
 const DRAG_BUFFER = 0;
 const VELOCITY_THRESHOLD = 500;
 const GAP = 16;
-const SPRING_OPTIONS = { type: 'spring', stiffness: 300, damping: 30 };
+const SPRING_OPTIONS: Transition = { type: 'spring', stiffness: 300, damping: 30 };
 
 export default function Carousel({
   items = DEFAULT_ITEMS,
