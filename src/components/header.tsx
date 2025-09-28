@@ -11,7 +11,10 @@ const Header = () => {
             </div>
             <div className="flex-1 items-center justify-end space-x-4 hidden sm:flex">
                 <nav className="flex items-center space-x-1 gap-5">
-                    <Link href="#features" className="text-sm font-medium transition-colors hover:text-primary">
+                    <Link href="#about" className="text-sm font-medium transition-colors hover:text-primary">
+                        About Us
+                    </Link>
+                    <Link href="#membraneless" className="text-sm font-medium transition-colors hover:text-primary">
                         Features
                     </Link>
                     <Link href="#process" className="text-sm font-medium transition-colors hover:text-primary ml-4">
@@ -23,7 +26,9 @@ const Header = () => {
                     <Link href="#contact" className="text-sm font-medium transition-colors hover:text-primary ml-4">
                         Contact
                     </Link>
-                    <Button className="ml-4 text-main-white bg-main-turquoise hover:bg-main-indigo hover:text-main-white">Get Started</Button>
+                    <Button className="ml-4 text-main-white bg-main-turquoise hover:bg-main-indigo hover:text-main-white"><Link href="#contact">
+                        Get Started
+                    </Link></Button>
                 </nav>
             </div>
         </div>

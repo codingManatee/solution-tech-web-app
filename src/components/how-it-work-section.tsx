@@ -9,7 +9,7 @@ const HowItWorkSection = () => {
                 </div>
             </div>
             <div className="grid grid-cols-2 mx-auto max-w-4xl py-12">
-                <Image src={"/template.jpg"} alt={""} width={300} height={450} />
+                <Image src={"/2.jpg"} alt={""} width={350} height={450} className="rounded-xl shadow-md object-cover" />
                 <div className="flex flex-col text-2xl text-center text-main-indigo">
                     <p className="">
                         We design and manufacture our own

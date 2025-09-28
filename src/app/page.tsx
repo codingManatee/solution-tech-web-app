@@ -8,7 +8,6 @@ import HowItWorkSection from "@/components/how-it-work-section"
 import KeyBenefitsSection from "@/components/key-benefits-section"
 import KeyDifferentSection from "@/components/key-different-section"
 import CtaText from "@/components/cta-text"
-import Footer from "@/components/footer"
 
 export default function Home() {
   return (
@@ -28,16 +27,7 @@ export default function Home() {
           <HeroSection />
         </section>
 
-        {/* Why Hydrogen */}
-        {/* <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-green-50">
-          <div className="container mx-auto px-4">
-            <FeatureSection />
-          </div>
-        </section> */}
-
-
-
-        {/* About us */}
+        {/* What we do */}
         <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-white">
           <div className="container mx-auto px-4">
             <AboutUs />
@@ -51,8 +41,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* How it Works */}
-        <section id="how-it-work" className="w-full py-12 md:py-24 lg:py-32 bg-white">
+        {/* Membraneless */}
+        <section id="membraneless" className="w-full py-12 md:py-24 lg:py-32 bg-white">
           <div className="container mx-auto px-4">
             <HowItWorkSection />
           </div>

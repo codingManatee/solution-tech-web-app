@@ -13,7 +13,7 @@ const KeyDifferentSection = () => {
                         <span className="text-5xl font-semibold text-main-turquoise">Material</span>
                         <span className="text-5xl">→</span>
                         <span className="flex items-end gap-2">
-                            <span className="text-3xl font-bold text-main-turquoise flex">
+                            <span className="text-5xl font-bold text-main-turquoise flex">
                                 <CountUp
                                     from={0}
                                     to={5}

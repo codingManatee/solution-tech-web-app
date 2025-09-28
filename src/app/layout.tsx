@@ -3,6 +3,9 @@ import "@/app/globals.css"
 
 export const metadata = {
   title: "The Solution Tech Company",
+  icons: {
+    icon: "/Logomark_Indigo.png",
+  },
 }
 
 export default function RootLayout({
