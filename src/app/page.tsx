@@ -1,4 +1,4 @@
-import Header from "@/components/Header"
+import Header from "@/components/app-header"
 import Section1 from "@/components/section-1"
 import Section2 from "@/components/section-2"
 import Section3 from "@/components/section-3"

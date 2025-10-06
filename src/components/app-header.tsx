@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import Image from "next/image";
 
-const Header = () => {
+const AppHeader = () => {
     return (
         <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 px-4">
             <div className="flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
@@ -36,4 +36,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default AppHeader;
