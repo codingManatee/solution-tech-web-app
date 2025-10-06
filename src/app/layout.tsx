@@ -1,6 +1,12 @@
 import type React from "react"
 import "@/app/globals.css"
-import ClickSpark from "@/components/ClickSpark"
+import { Poppins } from "next/font/google";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  variable: "--font-poppins",
+  weight: ["400", "500", "600", "700"],
+});
 
 export const metadata = {
   title: "The Solution Tech Company",
@@ -15,19 +21,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
+    <html lang="en" className={`scroll-smooth ${poppins.variable}`} suppressHydrationWarning >
       <body className="">
-        <ClickSpark
-          sparkColor='#003D4F'
-          sparkSize={10}
-          sparkRadius={15}
-          sparkCount={8}
-          duration={400}
-        >
-          {/* <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange> */}
-          {children}
-          {/* </ThemeProvider> */}
-        </ClickSpark>
+        {/* <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange> */}
+        {children}
+        {/* </ThemeProvider> */}
       </body>
     </html>
   )
