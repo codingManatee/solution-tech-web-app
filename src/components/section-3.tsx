@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Section3 = () => {
     return (
-        <section id='section3' className="px-0 md:px-10 lg:px-20 h-screen w-full flex flex-col items-center justify-center">
+        <section id='section3' className="px-0 md:px-10 lg:px-20 min-h-screen w-full flex flex-col items-center justify-center">
             <div className="w-4/5">
                 {/* Title */}
                 <h2 className="w-full text-6xl font-bold text-shadow-lg text-center md:text-end mb-12 text-main-indigo">

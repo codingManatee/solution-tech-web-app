@@ -1,8 +1,8 @@
-import { DollarSign } from "lucide-react"
+import { RiMoneyDollarCircleFill } from "react-icons/ri";
 
 const Section4 = () => {
     return (
-        <section id='section4' className="relative w-full max-w-6xl mx-auto px-6 py-16">
+        <section id='section4' className="relative w-full max-w-6xl min-h-screen mx-auto px-6 py-16">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div className="relative flex flex-col items-center">
                     <div className="relative z-10">
@@ -39,12 +39,12 @@ const Section4 = () => {
                         {/* Lower Production Costs */}
                         <div className="border-7 border-main-indigo rounded-2xl p-6 text-center shadow-sm">
                             <div className="flex justify-center mb-4">
-                                <DollarSign className="h-10 w-10 text-main-indigo" />
+                                <RiMoneyDollarCircleFill size={55} className="text-main-indigo" />
                             </div>
                             <h3 className="font-bold text-lg text-main-indigo">
                                 Lower Production Costs
                             </h3>
-                            <p className="mt-2 text-main-indigo">
+                            <p className="mt-2 text-main-indigo ">
                                 Cost of production <br />
                                 <span className="font-extrabold">3x lower</span>
                             </p>
@@ -53,7 +53,7 @@ const Section4 = () => {
                         {/* Lower Depreciation Costs */}
                         <div className="border-7 border-main-indigo rounded-2xl p-6 text-center shadow-sm">
                             <div className="flex justify-center mb-4">
-                                <DollarSign className="h-10 w-10 text-main-indigo" />
+                                <RiMoneyDollarCircleFill size={55} className="text-main-indigo" />
                             </div>
                             <h3 className="font-bold text-lg text-main-indigo">
                                 Lower Depreciation Costs

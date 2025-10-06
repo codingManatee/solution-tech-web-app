@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const Section1 = () => {
     return (
-        <section id="section1" className="px-5 md:px-10 lg:px-20 pt-10 md:pt-0 h-screen w-full flex flex-col space-y-6 md:grid md:grid-cols-2 md:items-center bg-gradient-to-b from-cyan-50 to-white">
+        <section id="section1" className="px-5 md:px-10 lg:px-20 pt-10 md:pt-0 min-h-screen w-full flex flex-col space-y-6 md:grid md:grid-cols-2 md:items-center bg-gradient-to-b from-cyan-50 to-white">
             <div className="flex flex-col gap-3">
                 <div className="text-6xl font-bold text-main-turquoise">
                     Green Hydrogen,
