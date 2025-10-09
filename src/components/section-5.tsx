@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Section5 = () => {
     return (
-        <section id="section5" className="relative px-5 md:px-10 lg:px-20 min-h-screen w-full flex flex-col justify-center">
+        <section id="section5" className="relative px-5 md:px-10 lg:px-20 pt-30 md:pt-0 min-h-screen w-full flex flex-col justify-center">
             <div className="w-full flex justify-center mb-12">
                 <h2 className="text-6xl text-shadow-lg font-extrabold text-main-indigo text-center">WHY IT MATTERS</h2>
             </div>

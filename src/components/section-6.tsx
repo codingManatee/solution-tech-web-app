@@ -4,7 +4,7 @@ import StatShow from "./ui/stat-show"
 
 const Section6 = () => {
     return (
-        <section id="section6" className="relative px-5 md:px-10 lg:px-20 h-screen w-full flex flex-col justify-center items-center">
+        <section id="section6" className="relative px-5 md:px-10 lg:px-20 pt-20 md:pt-0 h-screen w-full flex flex-col justify-center items-center">
             <div className="w-full flex justify-center mb-12">
                 <h2 className="text-6xl text-shadow-lg font-extrabold text-main-indigo text-center">VALUE PROPOSITION</h2>
             </div>

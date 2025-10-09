@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Section8 = () => {
     return (
-        <section id="section8" className="relative px-0 md:px-10 lg:px-20 h-screen w-full flex flex-col justify-center items-center">
+        <section id="section8" className="relative px-0 md:px-10 lg:px-20 pt-20 md:pt-0 h-screen w-full flex flex-col justify-center items-center">
             <div className=" px-4 md:px-6  w-full">
                 <div className="flex flex-col items-center space-y-4">
                     <div className="relative h-[250px] ">

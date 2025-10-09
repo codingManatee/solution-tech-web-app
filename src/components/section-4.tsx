@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Section4 = () => {
     return (
-        <section id='section4' className="relative px-0 md:px-10 lg:px-20 min-h-screen w-full flex flex-col items-center justify-center">
+        <section id='section4' className="relative px-0 md:px-10 lg:px-20 pt-30 md:pt-0 min-h-screen w-full flex flex-col items-center justify-center">
             <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
                 <div className="relative flex flex-col items-center">
                     <div className="flex ">
