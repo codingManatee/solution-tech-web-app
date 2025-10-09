@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Section2 = () => {
     return (
-        <section id='section2' className="px-5 md:px-10 lg:px-20 min-h-screen w-full items-center grid md:grid-cols-2">
+        <section id='section2' className="relative px-5 md:px-10 lg:px-20 min-h-screen w-full items-center grid md:grid-cols-2">
             <div className="">
                 <h2 className="text-6xl text-shadow-lg text-center md:text-start font-extrabold text-main-indigo">WHAT WE DO</h2>
                 <p className="mt-6 text-lg text-main-indigo">
@@ -23,6 +23,8 @@ const Section2 = () => {
                     height={350}
                 />
             </div>
+            <Image src={'/tr_border.png'} className="-z-10 absolute top-0 left-0 scale-x-[-1]" alt="bl_border" height={150} width={150} />
+            <Image src={'/tr_border.png'} className="-z-10 absolute top-0 right-0" alt="bl_border" height={150} width={150} />
         </section>
     )
 }

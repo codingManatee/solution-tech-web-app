@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Section5 = () => {
     return (
-        <section id="section5" className="px-5 md:px-10 lg:px-20 min-h-screen w-full flex flex-col justify-center">
+        <section id="section5" className="relative px-5 md:px-10 lg:px-20 min-h-screen w-full flex flex-col justify-center">
             <div className="w-full flex justify-center mb-12">
                 <h2 className="text-6xl text-shadow-lg font-extrabold text-main-indigo text-center">WHY IT MATTERS</h2>
             </div>
@@ -50,6 +50,8 @@ const Section5 = () => {
                     </p>
                 </div>
             </div>
+            <Image src={'/tr_border.png'} className="-z-10 absolute top-0 left-0 scale-x-[-1]" alt="bl_border" height={150} width={150} />
+            <Image src={'/bl_border.png'} className="-z-10 absolute bottom-0 right-0 scale-x-[-1]" alt="bl_border" height={150} width={150} />
         </section>
     )
 }

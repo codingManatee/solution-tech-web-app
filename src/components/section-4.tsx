@@ -1,25 +1,26 @@
 import { RiMoneyDollarCircleFill } from "react-icons/ri";
+import Image from "next/image";
 
 const Section4 = () => {
     return (
-        <section id='section4' className="relative w-full max-w-6xl min-h-screen mx-auto px-6 py-16">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <section id='section4' className="relative px-0 md:px-10 lg:px-20 min-h-screen w-full flex flex-col items-center justify-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
                 <div className="relative flex flex-col items-center">
-                    <div className="relative z-10">
+                    <div className="flex ">
                         <h2 className="text-6xl font-bold text-shadow-lg text-center mb-12 text-main-indigo">
                             KEY <br />
                             BENEFITS
                         </h2>
-                        {/* <span className="inline-block mt-4 text-main-turquoise text-6xl font-bold leading-none">
+                        <span className="-z-5 mt-4 text-main-turquoise text-9xl font-bold leading-none md:flex rotate-12">
                             !
-                        </span> */}
+                        </span>
                     </div>
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     {/* Ultra-high Purity */}
                     <div className="flex items-center">
-                        <div className="w-full border-7 border-main-indigo rounded-2xl p-6 text-center flex flex-col items-center justify-center shadow-sm lg:h-1/2">
+                        <div className="bg-white w-full border-7 border-main-indigo rounded-2xl p-6 text-center flex flex-col items-center justify-center shadow-sm lg:h-1/2">
                             <div className="flex justify-center mb-4">
                                 <div className="bg-main-indigo text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg">
                                     H
@@ -37,7 +38,7 @@ const Section4 = () => {
 
                     <div className="space-y-6">
                         {/* Lower Production Costs */}
-                        <div className="border-7 border-main-indigo rounded-2xl p-6 text-center shadow-sm">
+                        <div className="bg-white border-7 border-main-indigo rounded-2xl p-6 text-center shadow-sm">
                             <div className="flex justify-center mb-4">
                                 <RiMoneyDollarCircleFill size={55} className="text-main-indigo" />
                             </div>
@@ -51,7 +52,7 @@ const Section4 = () => {
                         </div>
 
                         {/* Lower Depreciation Costs */}
-                        <div className="border-7 border-main-indigo rounded-2xl p-6 text-center shadow-sm">
+                        <div className="bg-white border-7 border-main-indigo rounded-2xl p-6 text-center shadow-sm">
                             <div className="flex justify-center mb-4">
                                 <RiMoneyDollarCircleFill size={55} className="text-main-indigo" />
                             </div>
@@ -66,6 +67,8 @@ const Section4 = () => {
                     </div>
                 </div>
             </div>
+            <Image src={'/tr_border.png'} className="-z-10 absolute top-0 right-0" alt="bl_border" height={150} width={150} />
+            <Image src={'/bl_border.png'} className="-z-10 absolute bottom-0 left-0" alt="bl_border" height={150} width={150} />
         </section>
     )
 }

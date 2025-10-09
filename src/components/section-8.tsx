@@ -1,13 +1,21 @@
 import { AiFillInstagram } from "react-icons/ai";
 import { FaTiktok } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
+import Image from "next/image";
 
 const Section8 = () => {
     return (
-        <section id="section8" className="px-0 md:px-10 lg:px-20 h-screen w-full flex flex-col justify-center items-center">
+        <section id="section8" className="relative px-0 md:px-10 lg:px-20 h-screen w-full flex flex-col justify-center items-center">
             <div className=" px-4 md:px-6  w-full">
                 <div className="flex flex-col items-center space-y-4">
-                    <div className="relative space-y-2 flex flex-col items-center text-center mb-20 space-y-6">
+                    <div className="relative flex flex-col items-center text-center mb-20 space-y-6">
+                        <Image
+                            src="/click.png"
+                            alt="click"
+                            width={150}
+                            height={150}
+                            className="absolute top-0 left-0 w-18 h-32 -z-10 object-contain"
+                        />
                         <h2
                             className="text-6xl text-shadow-lg font-extrabold text-main-indigo"
                         >
@@ -37,7 +45,9 @@ const Section8 = () => {
                     </div>
                 </div>
             </div>
-        </section>
+            <Image src={'/tr_border.png'} className="-z-10 absolute top-0 left-0 scale-x-[-1]" alt="bl_border" height={150} width={150} />
+            <Image src={'/bl_border.png'} className="-z-10 absolute bottom-0 right-0 scale-x-[-1]" alt="bl_border" height={150} width={150} />
+        </section >
     )
 }
 
