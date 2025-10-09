@@ -8,24 +8,26 @@ const Section8 = () => {
         <section id="section8" className="relative px-0 md:px-10 lg:px-20 h-screen w-full flex flex-col justify-center items-center">
             <div className=" px-4 md:px-6  w-full">
                 <div className="flex flex-col items-center space-y-4">
-                    <div className="relative flex flex-col items-center text-center mb-20 space-y-6">
+                    <div className="relative h-[250px] ">
                         <Image
                             src="/click.png"
                             alt="click"
                             width={150}
                             height={150}
-                            className="absolute top-0 left-0 w-18 h-32 -z-10 object-contain"
+                            className="absolute top-0 left-6 md:left-12 w-18 h-32 -z-10 object-contain"
                         />
-                        <h2
-                            className="text-6xl text-shadow-lg font-extrabold text-main-indigo"
-                        >
-                            GET IN TOUCH
-                        </h2>
-                        <p className="font-semibold text-lg text-main-indigo ">
-                            Interest in our hydrogen energy solutions
-                            Reach out our team for more information.
-                        </p>
-                        <div className="absolute right-0 bottom-0 text-8xl font-extrabold text-main-turquoise -z-10">
+                        <div className="h-full flex flex-col justify-center text-center space-y-6">
+                            <h2
+                                className="text-6xl text-shadow-lg font-extrabold text-main-indigo"
+                            >
+                                GET IN TOUCH
+                            </h2>
+                            <p className="font-semibold text-lg text-main-indigo ">
+                                Interest in our hydrogen energy solutions
+                                Reach out our team for more information.
+                            </p>
+                        </div>
+                        <div className="absolute top-9 right-9 md:right-18 md:top-18 text-8xl font-extrabold text-main-turquoise -z-10">
                             ?
                         </div>
                     </div>
