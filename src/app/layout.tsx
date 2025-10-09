@@ -11,7 +11,7 @@ const poppins = Poppins({
 export const metadata = {
   title: "The Solution Tech Company",
   icons: {
-    icon: "/Logomark_Indigo.png",
+    icon: "/fav.ico",
   },
 }
 
