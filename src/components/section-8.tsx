@@ -27,7 +27,7 @@ const Section8 = () => {
                                 Reach out our team for more information.
                             </p>
                         </div>
-                        <div className="absolute top-9 right-9 md:right-18 md:top-18 text-8xl font-extrabold text-main-turquoise -z-10">
+                        <div className="absolute right-10 bottom-18 md:right-10 md:bottom-0 text-8xl font-extrabold text-main-turquoise -z-10">
                             ?
                         </div>
                     </div>
