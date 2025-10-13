@@ -34,7 +34,7 @@ const Section8 = () => {
                     <div className="space-y-4 text-main-indigo">
                         <div className="flex items-center gap-2">
                             <IoIosMail className="h-12 w-12 text-main-turquoise" />
-                            <a href="mailto:team@thesolutiontech.com" className="hover:underline w-full text-center">team@thesolutiontech</a>
+                            <a href="mailto:team@thesolutiontech.com" className="hover:underline w-full text-center">team@thesolutiontech.com</a>
                         </div>
                         <div className="flex items-center gap-2">
                             <AiFillInstagram className="h-12 w-12  text-main-turquoise" />
